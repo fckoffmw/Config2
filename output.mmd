@@ -1,0 +1,9 @@
+graph TD
+    vim --> vim-common
+    vim --> xxd
+    vim --> so:libc.musl-x86_64.so.1
+    vim --> so:libncursesw.so.6
+    vim-common
+    xxd --> so:libc.musl-x86_64.so.1
+    so:libc.musl-x86_64.so.1
+    so:libncursesw.so.6
